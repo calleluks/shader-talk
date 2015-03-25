@@ -1,4 +1,4 @@
-﻿Shader "Custom/Circles" {
+﻿Shader "Ready/Circles" {
 	Properties {
 		_PrimaryColor ("Primary Color", Color) = (1, 0, 0, 1)
 		_SecondaryColor ("Secondary Color", Color) = (0, 0, 1, 1)
