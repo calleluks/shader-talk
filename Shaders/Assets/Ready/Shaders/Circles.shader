@@ -47,9 +47,7 @@
                           0.5 + 0.5 * sin(t) * sin(3 * t));
                 radius = 0.5 + 0.10 * cos(2 * t) * -sin(5 * t);
                 topColor = color(i.uv, center, radius, _SecondaryColor);
-                float4 lol = (baseColor + topColor) * 0.5;
-                lol.a = 1;
-                return lol;
+                return (baseColor + topColor) * 0.5;
             }
             ENDCG
         }
